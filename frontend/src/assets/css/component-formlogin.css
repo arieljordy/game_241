@@ -1,0 +1,34 @@
+.input-line-login,.input-line-login-text{
+    border-top: 0 none transparent !important;
+    border-left: 0 none transparent !important;
+    border-right: 0 none transparent !important;
+    border-bottom-color: #000 !important;
+    width: 100% !important;
+}
+
+.input-line-login{
+    padding-right: 25px !important;
+}
+
+.toogle-type-input{
+    font-size: 23px;
+    color: #000;
+    position: absolute;
+    right: 15px;
+    cursor: pointer;
+}
+
+.btn-form-login{
+    position: absolute;
+    min-width: 100px;
+    padding: 5px;
+    border-radius: 25px;
+}
+
+.btn-form-login-reset{
+    right:100px;
+}
+
+.btn-form-login-submit{
+    right: -15px;
+}

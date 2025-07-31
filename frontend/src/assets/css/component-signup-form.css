@@ -1,0 +1,133 @@
+.my-form-signup {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    max-width: 350px;
+    padding: 10px;
+    border-radius: 20px;
+    position: relative;
+    border: 2px solid #0256cd;
+  }
+  
+  .my-title-form-signup {
+    font-size: 28px;
+    font-weight: 600;
+    letter-spacing: -1px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    color: #0256cd;
+  }
+  
+  .my-title-form-signup::before {
+    width: 18px;
+    height: 18px;
+  }
+  
+  .my-title-form-signup::after {
+    width: 18px;
+    height: 18px;
+    animation: pulse 1s linear infinite !important;
+  }
+  
+  .my-title-form-signup::before,
+  .my-title-form-signup::after {
+    position: absolute;
+    content: "";
+    height: 16px;
+    width: 16px;
+    border-radius: 50%;
+    left: 0px;
+    background-color: #0256cd;
+  }
+  
+  .my-message-form-signup, 
+  .signin {
+    font-size: 14.5px;
+  }
+  
+  .signin {
+    text-align: center;
+  }
+  
+  .flex {
+    display: flex;
+    width: 100%;
+    gap: 6px;
+  }
+  
+  .my-form-signup label {
+    position: relative;
+  }
+  
+  .my-form-signup label .my-input-form-signup {
+    background-color: transparent;
+    color: #000;
+    width: 100%;
+    padding: 20px 05px 05px 10px;
+    outline: 0;
+    border: 2px solid #0256cd;
+    border-radius: 10px;
+  }
+  
+  .my-form-signup label .my-input-form-signup + span {
+    color: #0256cd;
+    position: absolute;
+    left: 10px;
+    top: 0px;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+  
+  .my-form-signup label .my-input-form-signup:placeholder-shown + span {
+    top: 12.5px;
+    font-size: 0.9em;
+  }
+  
+  .my-form-signup label .my-input-form-signup:focus + span,
+  .my-form-signup label .my-input-form-signup:valid + span {
+    color: #0256cd;
+    top: 0px;
+    font-size: 0.7em;
+    font-weight: 600;
+  }
+  
+  .my-input-form-signup {
+    font-size: medium;
+  }
+  
+  .my-btn-form-signup {
+    border: none;
+    outline: none;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 16px;
+    transform: .3s ease;
+    width: 100%;
+  }
+
+  .my-btn-close-modal{
+    background-color: red !important;
+    color: black !important;
+    z-index: 2;
+    opacity: 1;
+    position: absolute;
+    top: -32px;
+    right: 45% !important;
+    border-radius: 50% !important;
+    font-size: 15px;
+  }
+  
+  @keyframes pulse {
+    from {
+      transform: scale(0.9);
+      opacity: 1;
+    }
+  
+    to {
+      transform: scale(1.8);
+      opacity: 0;
+    }
+  }

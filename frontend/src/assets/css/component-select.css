@@ -1,0 +1,44 @@
+.my-select-select{
+    appearance: none;
+    outline: 10px #ccc;
+    box-shadow: none;
+    flex: 1;
+    padding: 0 1em;
+    background-image: none;
+    cursor: pointer;
+    border: 2px solid #0256cd;
+    border-radius: 10px;
+}
+
+.my-select-select::-ms-expand {
+    display: none;
+}
+
+.my-select {
+    position: relative;
+    display: flex;
+    width:100%;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+.my-select::after {
+    content: "\25BC";
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #072c60;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+.my-select:hover::after {
+    color: #f8f8f8;
+}
+
+.down_note {
+    display: flex;
+    justify-content: center;
+}

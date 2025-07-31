@@ -1,0 +1,114 @@
+@media (prefers-reduced-motion: no-preference){
+  .logo-react-tournant{
+    animation: tourner infinite 3s linear;
+  }
+}
+
+@keyframes tourner{
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+:root{
+  --bleu-sombre:#072c60 !important;
+  --bleu:#0256cd !important;
+  --vert:#00b074 !important;
+  --trans:transparent !important;
+  --blanc:#f8f8f8 !important;
+  --noir:#000 !important;
+  --gris:#ccc !important;
+  --orange:#FF3D00 !important;
+  --jaune:#fffb00 !important
+}
+
+.bg-bleu{
+  background-color: var(--bleu) !important;
+}
+
+.bg-bleu-sombre{
+  background-color: var(--bleu-sombre) !important;
+}
+
+.bg-vert{
+  background-color: var(--vert) !important;
+}
+
+.bg-trans{
+  background-color: var(--trans) !important;
+}
+
+.bg-blanc{
+  background-color: var(--blanc) !important;
+}
+
+.bg-noir{
+  background-color: var(--noir) !important;
+}
+
+.bg-gris{
+  background-color: var(--gris) !important;
+}
+
+.bg-orange{
+  background-color: var(--orange) !important;
+}
+
+.bg-jaune{
+  background-color: var(--jaune) !important;
+}
+
+.element-bleu{
+  color: var(--bleu) !important;
+}
+
+.element-bleu-sombre{
+  color: var(--bleu-sombre) !important;
+}
+
+.element-vert{
+  color: var(--vert) !important;
+}
+
+.element-blanc{
+  color: var(--blanc) !important;
+}
+
+.element-noir{
+  color: var(--noir) !important;
+}
+
+.element-gris{
+  color: var(--gris) !important;
+}
+
+.element-orange{
+  color: var(--orange) !important;
+}
+
+.element-jaune{
+  color:var(--jaune) !important;
+}
+
+.text-align-justify{
+  text-align: justify !important;
+}
+
+.border-none{
+  border: 0 none transparent !important;
+}
+
+.cursor-pointer{
+  cursor: pointer !important;
+}
+
+.cursor-help{
+  cursor: help !important;
+}
+
+.margin-auto{
+  margin: auto !important;
+}

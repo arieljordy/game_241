@@ -1,0 +1,16 @@
+@media (max-width: 645px) {
+  .expand-block-res {
+    width: 100% !important;
+    margin-right: 0 !important;
+    margin-left: 0 !important;
+  }
+}
+
+.person-media-img {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  flex-shrink: 0;
+  height: 55px;
+  width: 55px;
+}
